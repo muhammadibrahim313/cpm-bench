@@ -1,0 +1,30 @@
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+
+# Local environments
+.conda-cpm-paper/
+.venv/
+venv/
+
+# Zenodo/data outputs are cited from the dataset DOI, not stored in git.
+cpm_bench_v1_40x20_single_75/
+zenodo_upload_ready/
+zenodo_upload_dataset_only/
+*.zip
+
+# Original local scratch/source copies kept outside the tidy repo layout.
+/cpm-bench-cost-per-meaning-benchmark-main-noteboo.ipynb
+/Token Efficiency Benchmarking Across Languages for Large Language Models.pdf
+/LR.tex
+/cpm_bench_meeting_brief.tex
+/cpm_benchmark_chat_context.md
+/cpm_bench_paper_pretty_context.md
+/release/
+/docs/
+/paper/
+/metadata/
+/DATASET_CARD.md
+/CITATION.cff
+
+# LaTeX build artifacts

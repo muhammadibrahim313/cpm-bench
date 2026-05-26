@@ -1,0 +1,16 @@
+name: cpm-bench
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - pip:
+      - torch
+      - transformers
+      - tensorflow
+      - tensorflow-hub
+      - tensorflow-text
+      - sentencepiece

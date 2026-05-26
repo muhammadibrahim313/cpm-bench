@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+torch
+transformers
+tensorflow
+tensorflow-hub
+tensorflow-text
+sentencepiece
